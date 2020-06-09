@@ -1,4 +1,6 @@
+// @ts-ignore
 import { Router } from 'https://deno.land/x/oak/mod.ts'
+// @ts-ignore
 import { getUsers, getUser, addUser, updateUser, deleteUser } from './controllers/user_controller.ts'
 
 const router = new Router({

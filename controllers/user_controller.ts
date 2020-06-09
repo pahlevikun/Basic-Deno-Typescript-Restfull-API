@@ -1,6 +1,8 @@
+// @ts-ignore
 import { Client } from 'https://deno.land/x/mysql/mod.ts'
+// @ts-ignore
 import { database } from '../config.ts'
-
+// @ts-ignore
 const client = await new Client().connect({
   hostname: database.hostname,
   username: database.user,
